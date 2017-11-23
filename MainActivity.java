@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
                 result = "Team B is winner";
             }
         }
-        LinearLayout layout = (LinearLayout) findViewById(R.id.team_a_column);
+        layout = (LinearLayout) findViewById(R.id.team_a_column);
         for (int i = 0; i < layout.getChildCount(); i++) {
             View child = layout.getChildAt(i);
             child.setEnabled(false);
